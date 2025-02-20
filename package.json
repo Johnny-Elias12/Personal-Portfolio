@@ -17,8 +17,10 @@
   },
  "scripts": {
   "preinstall": "npm install -g react-scripts",
-  "start": "react-scripts start",
-  "build": "react-scripts build"
+  "start": "npm run client",
+  "client": "react-scripts start",
+  "build": "npm run client-build",
+  "client-build": "react-scripts build"
 },
   "eslintConfig": {
     "extends": [
